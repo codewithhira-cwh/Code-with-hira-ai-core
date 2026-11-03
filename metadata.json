@@ -1,0 +1,6 @@
+{
+  "name": "CODEWITHHIRA AI CORE",
+  "description": "Premium cinematic 3D AI universe and multi-model personal AI ecosystem created by Hiralal Kumar (CODEWITHHIRA). Features real-time interactive 3D AI Core, multi-provider engine, memory, RAG, agents, coding workspace, and sci-fi control center.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}

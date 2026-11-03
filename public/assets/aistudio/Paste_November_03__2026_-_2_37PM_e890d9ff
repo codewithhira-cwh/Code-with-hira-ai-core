@@ -1,0 +1,1364 @@
+Ab hum CODEWITHHIRA AI CORE ka Ultimate Final Master Blueprint (V2.0) banayenge. Ismein pehle ke saare features aur abhi identify kiye gaye advanced systems integrate kar diye hain.
+
+Is prompt ka objective sirf AI chat website banana nahi, balki ek complete, modular, multi-provider AI ecosystem develop karna hai.
+
+CODEWITHHIRA AI CORE
+
+ULTIMATE AI ECOSYSTEM — MASTER DEVELOPMENT PROMPT
+
+00. PROJECT IDENTITY
+
+Project Name: CODEWITHHIRA AI CORE
+
+Brand Name: CODEWITHHIRA
+
+Founder: Hiralal Kumar
+
+Project Owner: Hiralal Kumar
+
+Developer Identity: CODEWITHHIRA
+
+Copyright: © 2026 CODEWITHHIRA. All Rights Reserved.
+
+Project Type: Personal API-Powered Multi-Model AI Ecosystem.
+
+Development Type: Full-Stack Application.
+
+Primary Objective:
+
+Build an independent, professional, scalable AI ecosystem inspired by the user experience of ChatGPT and Google Gemini.
+
+The application must allow every registered user to connect their own API credentials, select AI providers and models, and activate their personal AI assistant.
+
+The application must provide its own frontend, backend, database, memory, workspace, tools, integrations, user management and security infrastructure.
+
+External providers supply the AI model intelligence. CODEWITHHIRA AI CORE supplies the application infrastructure and user experience.
+
+==================================================
+
+1. CORE ARCHITECTURE
+   ==================================================
+
+Create five major interconnected systems.
+
+1. AI ENGINE
+2. AI WORKSPACE
+3. AI MEMORY
+4. AI TOOLS
+5. AI CONTROL CENTER
+
+Additional supporting systems:
+
+6. USER MANAGEMENT
+7. SECURITY CENTER
+8. ANALYTICS ENGINE
+9. ADMIN CONTROL CENTER
+10. DEPLOYMENT & MONITORING
+
+All modules must communicate through properly defined backend APIs.
+
+==================================================
+02. USER ONBOARDING SYSTEM
+
+Create a complete first-time user experience.
+
+Welcome Screen:
+
+- Application Branding
+- Introduction
+- Get Started
+- Login
+- Signup
+
+Authentication:
+
+- Email Registration
+- Login
+- Email Verification
+- Password Reset
+- Secure Logout
+- Session Management
+
+AI Setup Wizard:
+
+STEP 1: Select AI Provider.
+
+STEP 2: Enter Personal API Key.
+
+STEP 3: Configure API Endpoint Where Required.
+
+STEP 4: Select Available AI Model.
+
+STEP 5: Test API Connection.
+
+STEP 6: Verify Authentication and Model Availability.
+
+STEP 7: Activate AI Assistant.
+
+STEP 8: Redirect to AI Dashboard.
+
+Supported Providers:
+
+- OpenAI
+- Anthropic Claude
+- Google Gemini
+- DeepSeek
+- OpenAI-Compatible Custom API
+
+Allow users to configure multiple providers.
+
+No shared owner API key should be required.
+
+Never activate fake AI functionality.
+
+==================================================
+03. PERSONAL API MANAGEMENT SYSTEM
+
+Create a complete API configuration center.
+
+Features:
+
+- Add API Key
+- Update API Key
+- Delete API Key
+- Add Multiple Providers
+- Multiple API Configurations
+- Custom API Base URL
+- Select Default Provider
+- Select Default Model
+- Test Connection
+- Connection History
+- API Health Status
+- Model Availability
+- Credential Expiration Warnings Where Applicable
+- API Configuration Backup Without Exporting Secrets
+
+API Security:
+
+- Encrypt credentials before storage.
+- Protect encryption keys separately.
+- Never expose credentials to frontend JavaScript.
+- Never put credentials in URLs.
+- Never log API keys.
+- Mask saved credentials.
+- Restrict access by user identity.
+- Allow credential revocation.
+- Validate custom API endpoints.
+- Prevent SSRF through custom endpoint validation.
+
+==================================================
+04. AI PROVIDER ENGINE
+
+Create independent provider adapters.
+
+backend/ai/
+
+- ai_router.py
+- provider_manager.py
+- openai.py
+- claude.py
+- gemini.py
+- deepseek.py
+- custom_provider.py
+- model_manager.py
+- capability_manager.py
+- response_handler.py
+- streaming.py
+- tool_calling.py
+- structured_output.py
+- retry_manager.py
+
+Responsibilities:
+
+- Provider Selection
+- Model Selection
+- Provider-Specific Requests
+- Request Normalization
+- Streaming Responses
+- Error Handling
+- Token Usage
+- Context Management
+- Tool Calling
+- Structured JSON Output
+- Request Cancellation
+- Rate Limit Handling
+
+Use provider-specific capabilities rather than assuming every model supports every feature.
+
+==================================================
+05. ADVANCED AI MODEL SYSTEM
+
+Features:
+
+- Dynamic Model Discovery
+- Model Selection
+- Default Model
+- Model Switching
+- Model Comparison
+- Model Benchmarking
+- Context Window Information
+- Capability Detection
+- Provider Availability
+- Model Information
+- Model Search
+- Model Favorites
+
+Only show verified available models.
+
+Allow the user to select models manually.
+
+==================================================
+06. ADVANCED AI CHAT SYSTEM
+
+Create a professional ChatGPT/Gemini-style interface.
+
+Core Features:
+
+- New Chat
+- Multiple Conversations
+- Streaming Responses
+- Markdown Rendering
+- Code Highlighting
+- Copy Response
+- Copy Code
+- Regenerate Response
+- Edit Message
+- Stop Generation
+- Delete Message
+- Rename Conversation
+- Search History
+- Pin Conversations
+- Archive Conversations
+- Export Conversations
+- Message Timestamps
+- Temporary Chat
+- Chat Branching
+- Conversation Sharing With Permission
+- Feedback System
+- Response Regeneration
+- Model Switching During Conversations
+- Conversation Context Management
+
+Chat Interface:
+
+- Sidebar
+- Chat Header
+- Message Area
+- Input Composer
+- Attachment Button
+- Voice Button
+- Model Selector
+- Tool Selector
+
+==================================================
+07. AI PERSONALITY & PROMPT SYSTEM
+
+Features:
+
+- Custom System Prompt
+- AI Personality Selection
+- Response Style
+- Tone Selection
+- Language Preferences
+- Custom Instructions
+- Saved Prompts
+- Prompt Library
+- Prompt Templates
+- Prompt Version History
+- Per-Project Instructions
+
+Allow users to create different AI personalities.
+
+==================================================
+08. AI MEMORY ENGINE
+
+Create a user-specific memory architecture.
+
+Features:
+
+- Short-Term Memory
+- Long-Term Memory
+- Conversation Memory
+- Saved Memories
+- User Preferences
+- Personal Context
+- Memory Search
+- Memory Editing
+- Memory Deletion
+- Memory History
+- Context Summarization
+- Context Window Management
+- Memory Enable/Disable
+- Memory Export
+
+Privacy:
+
+- Separate memory for every user.
+- Obtain consent before saving long-term personal information.
+- Allow users to inspect and delete memories.
+- Never share memories between accounts.
+
+==================================================
+09. KNOWLEDGE BASE & RAG SYSTEM
+
+Create a private knowledge management system.
+
+Features:
+
+- Personal Knowledge Base
+- Document Indexing
+- Document Chunking
+- Embedding Generation
+- Vector Search
+- Semantic Search
+- Retrieval-Augmented Generation
+- Source References
+- Document-Based Questions
+- Knowledge Base Management
+- Collection Management
+- Document Removal
+- Reindexing
+
+Support compatible embedding providers.
+
+Allow compatible vector databases such as:
+
+- FAISS
+- ChromaDB
+- PostgreSQL with pgvector
+
+Knowledge retrieval must remain restricted to authorized user data.
+
+==================================================
+10. MULTI-AI AGENT SYSTEM
+
+Create a custom AI agent builder.
+
+Features:
+
+- Create AI Agent
+- Edit AI Agent
+- Delete AI Agent
+- Agent Personality
+- Agent Instructions
+- Model Selection
+- Tool Selection
+- Knowledge Base Connection
+- Agent Memory
+- Agent Testing
+- Agent Versioning
+- Agent Sharing With Permission
+
+Example Agents:
+
+- Coding Assistant
+- Research Assistant
+- Writing Assistant
+- Mathematics Assistant
+- Document Assistant
+- Data Analysis Assistant
+- Personal Assistant
+
+==================================================
+11. MULTI-MODEL COMPARISON
+
+Create an AI comparison workspace.
+
+Features:
+
+- Send Same Prompt to Multiple Models
+- Parallel Requests
+- Side-by-Side Responses
+- Response Comparison
+- Response Rating
+- Token Usage Comparison
+- Latency Comparison
+- Estimated Cost Comparison
+- Save Comparison Results
+
+Only use models and credentials configured by the user.
+
+==================================================
+12. AI WORKSPACE & PROJECT SYSTEM
+
+Create a workspace for organizing different tasks.
+
+Features:
+
+- Create Project
+- Rename Project
+- Delete Project
+- Project Instructions
+- Project-Specific AI Model
+- Project Conversations
+- Project Files
+- Project Memory
+- Project Knowledge Base
+- Project Export
+
+Add separate workspaces for:
+
+- Writing
+- Coding
+- Research
+- Documents
+- Data Analysis
+
+==================================================
+13. DOCUMENT & FILE INTELLIGENCE
+
+Supported Formats:
+
+- PDF
+- TXT
+- DOCX
+- CSV
+- XLSX
+- JSON
+- Supported Image Formats
+
+Features:
+
+- File Upload
+- File Preview
+- Text Extraction
+- Document Summarization
+- Document Questions
+- Document Comparison
+- Table Extraction
+- Data Analysis
+- File Search
+- Download
+- Delete
+- File History
+
+Validate file size and type.
+
+Never execute uploaded files.
+
+==================================================
+14. IMAGE INTELLIGENCE
+
+Features:
+
+- Image Upload
+- Image Understanding
+- Image Description
+- Visual Question Answering
+- Image Comparison
+- Image-Based Document Analysis
+- Multiple Image Attachments
+- Image Generation Integration
+- Image History
+
+Enable only compatible provider capabilities.
+
+==================================================
+15. VOICE & AUDIO SYSTEM
+
+Features:
+
+- Speech-to-Text
+- Text-to-Speech
+- Voice Input
+- Voice Output
+- Audio Playback
+- Audio Transcription
+- Voice Settings
+- Language Selection
+- Microphone Permissions
+- Stop Audio
+- Compatible Real-Time Voice Integration
+
+==================================================
+16. WEB SEARCH & RESEARCH ENGINE
+
+Features:
+
+- Internet Search
+- Search Result Retrieval
+- Source Links
+- Source Citations
+- Search Summaries
+- Research Mode
+- Search History
+- Source Verification
+- Search Tool Permissions
+
+Use a configured search provider or permitted search integration.
+
+Never fabricate search results or citations.
+
+==================================================
+17. AI CODING WORKSPACE
+
+Features:
+
+- Code Generation
+- Code Explanation
+- Code Debugging
+- Code Review
+- Code Formatting
+- Code Conversion
+- Syntax Highlighting
+- Code Copy
+- Project File Management
+- Code Comparison
+- Error Explanation
+- Programming Assistance
+
+Supported Languages:
+
+- Python
+- Java
+- JavaScript
+- TypeScript
+- C
+- C++
+- PHP
+- HTML
+- CSS
+- SQL
+- JSON
+
+Any code execution environment must be isolated and sandboxed.
+
+==================================================
+18. AI TOOL CENTER
+
+Create a centralized tool marketplace/interface.
+
+Tools:
+
+- AI Chat
+- Coding Assistant
+- Writing Assistant
+- Document Reader
+- PDF Analyzer
+- Image Analyzer
+- Image Generator
+- Voice Assistant
+- Web Search
+- Translator
+- Text Summarizer
+- Data Analyzer
+- JSON Formatter
+- Knowledge Search
+- Research Assistant
+- Custom Agents
+
+Allow tool activation and deactivation.
+
+Show unsupported tools as unavailable.
+
+==================================================
+19. ADVANCED WORKFLOW ENGINE
+
+Features:
+
+- Multi-Step AI Workflows
+- Tool Calling
+- Function Calling
+- Workflow Builder
+- Workflow Templates
+- Sequential Tasks
+- Conditional Tasks
+- Task Status
+- Workflow History
+- Execution Logs
+- Approval Before Sensitive Actions
+
+Do not execute arbitrary tools without authorization.
+
+==================================================
+20. USER DASHBOARD
+
+Create a premium dashboard.
+
+Sections:
+
+- Overview
+- New Chat
+- Recent Conversations
+- AI Models
+- AI Providers
+- API Manager
+- AI Memory
+- Knowledge Base
+- AI Agents
+- AI Workspace
+- AI Tools
+- Document Manager
+- Voice Assistant
+- Usage Analytics
+- API Usage
+- Profile
+- Settings
+- Help Center
+
+==================================================
+21. USER ACCOUNT SYSTEM
+
+Features:
+
+- Registration
+- Login
+- Logout
+- Email Verification
+- Password Reset
+- Profile Editing
+- Profile Picture
+- Password Change
+- Account Recovery
+- Two-Factor Authentication
+- Session Management
+- Active Device Sessions
+- Account Export
+- Account Deletion
+
+Use secure authentication and password hashing.
+
+==================================================
+22. ANALYTICS & API USAGE CENTER
+
+Features:
+
+- Total Requests
+- Token Usage
+- Input Tokens
+- Output Tokens
+- Provider-Wise Usage
+- Model-Wise Usage
+- Estimated API Cost
+- Request Latency
+- Failed Requests
+- Usage History
+- Usage Charts
+- Usage Export
+- User-Defined Spending Limits
+- Usage Alerts
+
+Cost information must be labelled as an estimate unless confirmed by the provider.
+
+==================================================
+23. ADMIN CONTROL CENTER
+
+Owner Administration:
+
+- Admin Dashboard
+- Application Statistics
+- User Management
+- Account Status
+- System Health
+- Provider Integration Status
+- Error Monitoring
+- Application Logs
+- Security Events
+- Storage Monitoring
+- Feature Management
+- Maintenance Mode
+- Application Settings
+- Version Management
+- Database Monitoring
+- Backup Management
+
+Admin Privacy:
+
+- No default access to plaintext user API keys.
+- No default access to private user conversations.
+- Restrict sensitive administration.
+- Record administrative actions.
+- Use role-based permissions.
+
+==================================================
+24. SECURITY CENTER
+
+Implement:
+
+- Secure Authentication
+- Password Hashing
+- Two-Factor Authentication
+- Session Expiration
+- CSRF Protection
+- XSS Protection
+- SQL Injection Protection
+- SSRF Protection
+- Secure HTTP Headers
+- HTTPS
+- Rate Limiting
+- Input Validation
+- File Validation
+- Credential Encryption
+- Permission Management
+- Audit Logging
+- Login Protection
+- Secure Error Handling
+- Data Isolation
+- Backup Security
+- Prompt Injection Defenses
+- Secure Tool Execution
+
+Apply privacy and security controls throughout the system.
+
+==================================================
+25. NOTIFICATIONS & PREFERENCES
+
+Features:
+
+- In-App Notifications
+- API Connection Alerts
+- Usage Alerts
+- Security Notifications
+- Model Availability Alerts
+- Notification Settings
+- Language Preferences
+- Theme Preferences
+- Accessibility Settings
+- Chat Preferences
+- Privacy Preferences
+
+==================================================
+26. PWA & MOBILE EXPERIENCE
+
+Features:
+
+- Progressive Web App
+- Installable Application
+- Mobile-First Interface
+- Responsive Desktop Layout
+- Offline Application Shell
+- Responsive Navigation
+- Touch-Friendly Controls
+- Mobile File Upload
+- Theme Management
+- Safe Local Storage
+
+Offline mode must not pretend that cloud AI requests work without connectivity.
+
+==================================================
+27. DATABASE ARCHITECTURE
+
+Use SQLite during initial development and PostgreSQL for production.
+
+Tables:
+
+- users
+- user_profiles
+- user_sessions
+- providers
+- user_api_configs
+- models
+- conversations
+- messages
+- memory_records
+- projects
+- project_files
+- uploaded_files
+- knowledge_bases
+- document_chunks
+- agents
+- agent_tools
+- workflows
+- workflow_runs
+- usage_records
+- notifications
+- user_preferences
+- audit_logs
+- system_settings
+
+Apply database migrations, indexes, foreign keys and strict user-level access controls.
+
+==================================================
+28. COMPLETE FOLDER STRUCTURE
+
+CODEWITHHIRA-AI-CORE/
+│
+├── frontend/
+│   ├── index.html
+│   ├── welcome.html
+│   ├── login.html
+│   ├── signup.html
+│   ├── forgot-password.html
+│   ├── dashboard.html
+│   ├── chat.html
+│   ├── history.html
+│   ├── models.html
+│   ├── providers.html
+│   ├── api-manager.html
+│   ├── memory.html
+│   ├── knowledge-base.html
+│   ├── agents.html
+│   ├── workspace.html
+│   ├── projects.html
+│   ├── tools.html
+│   ├── documents.html
+│   ├── voice.html
+│   ├── analytics.html
+│   ├── notifications.html
+│   ├── profile.html
+│   ├── settings.html
+│   ├── about.html
+│   ├── privacy.html
+│   ├── terms.html
+│   └── admin.html
+│
+│   ├── assets/
+│   │   ├── images/
+│   │   ├── icons/
+│   │   ├── fonts/
+│   │   └── logos/
+│
+│   ├── css/
+│   │   ├── style.css
+│   │   ├── landing.css
+│   │   ├── auth.css
+│   │   ├── dashboard.css
+│   │   ├── chat.css
+│   │   ├── workspace.css
+│   │   ├── models.css
+│   │   ├── api-manager.css
+│   │   ├── agents.css
+│   │   ├── tools.css
+│   │   ├── analytics.css
+│   │   ├── animations.css
+│   │   └── responsive.css
+│
+│   └── js/
+│       ├── app.js
+│       ├── auth.js
+│       ├── dashboard.js
+│       ├── chat.js
+│       ├── streaming.js
+│       ├── models.js
+│       ├── providers.js
+│       ├── api-manager.js
+│       ├── memory.js
+│       ├── knowledge-base.js
+│       ├── agents.js
+│       ├── projects.js
+│       ├── workflows.js
+│       ├── tools.js
+│       ├── uploads.js
+│       ├── voice.js
+│       ├── analytics.js
+│       ├── notifications.js
+│       └── settings.js
+│
+├── backend/
+│   ├── app.py
+│   ├── config.py
+│   ├── requirements.txt
+│   │
+│   ├── routes/
+│   │   ├── auth.py
+│   │   ├── users.py
+│   │   ├── chat.py
+│   │   ├── providers.py
+│   │   ├── models.py
+│   │   ├── api_keys.py
+│   │   ├── history.py
+│   │   ├── memory.py
+│   │   ├── knowledge.py
+│   │   ├── agents.py
+│   │   ├── projects.py
+│   │   ├── workflows.py
+│   │   ├── uploads.py
+│   │   ├── documents.py
+│   │   ├── images.py
+│   │   ├── voice.py
+│   │   ├── search.py
+│   │   ├── tools.py
+│   │   ├── analytics.py
+│   │   ├── notifications.py
+│   │   ├── profile.py
+│   │   └── admin.py
+│   │
+│   ├── ai/
+│   │   ├── ai_router.py
+│   │   ├── provider_manager.py
+│   │   ├── openai.py
+│   │   ├── claude.py
+│   │   ├── gemini.py
+│   │   ├── deepseek.py
+│   │   ├── custom_provider.py
+│   │   ├── model_manager.py
+│   │   ├── capability_manager.py
+│   │   ├── response_handler.py
+│   │   ├── streaming.py
+│   │   ├── tool_calling.py
+│   │   ├── structured_output.py
+│   │   └── retry_manager.py
+│   │
+│   ├── agents/
+│   │   ├── agent_manager.py
+│   │   ├── agent_builder.py
+│   │   ├── agent_tools.py
+│   │   └── agent_memory.py
+│   │
+│   ├── rag/
+│   │   ├── document_indexer.py
+│   │   ├── document_chunker.py
+│   │   ├── embeddings.py
+│   │   ├── retriever.py
+│   │   ├── vector_store.py
+│   │   └── citations.py
+│   │
+│   ├── workflows/
+│   │   ├── workflow_engine.py
+│   │   ├── workflow_builder.py
+│   │   ├── tool_executor.py
+│   │   └── task_manager.py
+│   │
+│   ├── services/
+│   │   ├── conversation.py
+│   │   ├── memory.py
+│   │   ├── context_manager.py
+│   │   ├── voice.py
+│   │   ├── image.py
+│   │   ├── documents.py
+│   │   ├── web_search.py
+│   │   ├── usage_tracker.py
+│   │   └── notification_service.py
+│   │
+│   ├── analytics/
+│   │   ├── token_tracker.py
+│   │   ├── cost_tracker.py
+│   │   ├── usage_analytics.py
+│   │   └── performance_analytics.py
+│   │
+│   ├── monitoring/
+│   │   ├── health_check.py
+│   │   ├── performance.py
+│   │   ├── error_monitor.py
+│   │   └── provider_monitor.py
+│   │
+│   ├── integrations/
+│   │   ├── search/
+│   │   ├── speech/
+│   │   ├── image_generation/
+│   │   └── external_tools/
+│   │
+│   ├── database/
+│   │   ├── db.py
+│   │   ├── models.py
+│   │   ├── schema.sql
+│   │   └── migrations/
+│   │
+│   ├── security/
+│   │   ├── authentication.py
+│   │   ├── encryption.py
+│   │   ├── validation.py
+│   │   ├── permissions.py
+│   │   ├── rate_limit.py
+│   │   ├── security_headers.py
+│   │   └── csrf.py
+│   │
+│   ├── middleware/
+│   │   ├── auth_middleware.py
+│   │   ├── error_middleware.py
+│   │   └── request_middleware.py
+│   │
+│   ├── compliance/
+│   │   ├── privacy.py
+│   │   ├── data_retention.py
+│   │   ├── audit.py
+│   │   └── account_deletion.py
+│   │
+│   └── utils/
+│       ├── logger.py
+│       ├── error_handler.py
+│       ├── helpers.py
+│       └── validators.py
+│
+├── storage/
+│   ├── uploads/
+│   ├── documents/
+│   ├── exports/
+│   └── backups/
+│
+├── tests/
+│   ├── unit/
+│   ├── integration/
+│   ├── security/
+│   └── frontend/
+│
+├── docs/
+│   ├── architecture.md
+│   ├── installation.md
+│   ├── api-documentation.md
+│   ├── security.md
+│   └── deployment.md
+│
+├── .env
+├── .env.example
+├── .gitignore
+├── README.md
+├── LICENSE
+├── CHANGELOG.md
+└── pyproject.toml
+
+==================================================
+29. TECHNOLOGY STACK
+
+Frontend:
+
+- HTML5
+- CSS3
+- JavaScript
+- Fetch API
+- Server-Sent Events
+- WebSocket Where Needed
+
+Backend:
+
+- Python
+- FastAPI
+- Uvicorn
+- Pydantic
+- HTTPX
+
+Database:
+
+- SQLite
+- PostgreSQL
+- SQLAlchemy
+
+Memory and Retrieval:
+
+- Embeddings
+- Vector Search
+- FAISS / ChromaDB / pgvector
+
+Security:
+
+- Argon2 / bcrypt
+- Secure Sessions
+- Credential Encryption
+- HTTPS
+- Rate Limiting
+
+Testing:
+
+- Pytest
+- Integration Tests
+- Security Tests
+- Frontend Tests
+
+==================================================
+30. DESIGN SYSTEM
+
+Create an original premium visual identity.
+
+Visual Style:
+
+- AMOLED Black
+- Dark Purple Accents
+- Premium Glassmorphism
+- 3D-Inspired Components
+- Smooth Transitions
+- Interactive Sidebar
+- Modern Chat Interface
+- Animated Loading States
+- Professional Typography
+- Responsive Dashboard
+- Accessible Controls
+
+The design must work smoothly on:
+
+- Android Phones
+- Tablets
+- Desktop
+- Laptop
+
+Avoid unnecessary animations that reduce performance.
+
+==================================================
+31. PERFORMANCE & SCALABILITY
+
+Implement:
+
+- Pagination
+- Lazy Loading
+- Streaming
+- Efficient Database Queries
+- Background Tasks
+- Request Cancellation
+- Caching
+- Storage Management
+- Database Backups
+- Error Recovery
+- Monitoring
+- Scalable Deployment
+
+==================================================
+32. PRIVACY & DATA MANAGEMENT
+
+Features:
+
+- Privacy Policy
+- Terms and Conditions
+- Data Export
+- Account Deletion
+- Memory Deletion
+- Conversation Deletion
+- API Key Deletion
+- File Deletion
+- Data Retention Controls
+- User Consent
+- Audit Logs
+
+Clearly disclose which data is sent to external AI providers.
+
+Do not promise end-to-end encryption unless the entire architecture actually implements it.
+
+==================================================
+33. TESTING CHECKLIST
+
+Test every module.
+
+AUTHENTICATION:
+
+- Registration
+- Login
+- Password Reset
+- Two-Factor Authentication
+- Session Expiration
+
+API:
+
+- Add Key
+- Test Connection
+- Invalid Key
+- Provider Switching
+- Model Selection
+- Credential Encryption
+
+AI CHAT:
+
+- New Chat
+- Streaming
+- Stop Generation
+- Regenerate
+- Edit Message
+- History
+
+MEMORY:
+
+- Save
+- Search
+- Update
+- Delete
+- User Isolation
+
+TOOLS:
+
+- Documents
+- Images
+- Voice
+- Search
+- Coding
+- Agents
+- Workflows
+
+SECURITY:
+
+- XSS
+- CSRF
+- SSRF
+- SQL Injection
+- Rate Limits
+- File Validation
+- Permission Checks
+
+PLATFORM:
+
+- Android Compatibility
+- Desktop Compatibility
+- PWA Installation
+- Performance
+- Deployment
+
+==================================================
+34. DEPLOYMENT SYSTEM
+
+Support:
+
+- Local Development
+- Android Termux
+- Linux
+- VPS
+- Cloud Hosting
+- Frontend Hosting
+- Backend Hosting
+- PostgreSQL Production
+- HTTPS
+- Domain Configuration
+- Backup and Restore
+
+Never expose .env or secrets in public repositories.
+
+==================================================
+35. DEVELOPMENT PHASES
+
+PHASE 01 — Project Foundation
+
+PHASE 02 — Frontend and Design System
+
+PHASE 03 — Authentication
+
+PHASE 04 — Personal API Configuration
+
+PHASE 05 — Provider Integrations
+
+PHASE 06 — AI Router and Model Manager
+
+PHASE 07 — AI Chat and Streaming
+
+PHASE 08 — Conversation History
+
+PHASE 09 — Memory Engine
+
+PHASE 10 — Knowledge Base and RAG
+
+PHASE 11 — AI Agents
+
+PHASE 12 — Multi-Model Comparison
+
+PHASE 13 — Projects and Workspace
+
+PHASE 14 — Document Intelligence
+
+PHASE 15 — Image and Voice
+
+PHASE 16 — Web Search
+
+PHASE 17 — Coding Assistant
+
+PHASE 18 — Workflow Engine
+
+PHASE 19 — Usage Analytics
+
+PHASE 20 — Admin Dashboard
+
+PHASE 21 — Security and Privacy
+
+PHASE 22 — PWA and Mobile Optimization
+
+PHASE 23 — Automated Testing
+
+PHASE 24 — Deployment
+
+Do not skip phases.
+
+==================================================
+36. STRICT DEVELOPMENT INSTRUCTIONS
+
+1. Follow the complete architecture.
+2. Build real functional modules.
+3. Never use fake AI responses.
+4. Every user manages their own API credentials.
+5. Never expose API keys in frontend code.
+6. Encrypt stored API credentials.
+7. Maintain user-level data isolation.
+8. Use modular architecture.
+9. Keep frontend and backend separated.
+10. Implement provider-specific capabilities.
+11. Handle API errors correctly.
+12. Maintain responsive design.
+13. Test every completed module.
+14. Preserve existing working code.
+15. Prefer incremental code modifications.
+16. Document every development phase.
+17. Never claim an untested feature is complete.
+18. Do not create unnecessary duplicate files.
+19. Never leave core features as nonfunctional placeholders.
+20. Clearly identify features requiring additional APIs or paid services.
+
+==================================================
+37. FINAL OWNERSHIP & BRAND IDENTITY
+
+Application:
+
+CODEWITHHIRA AI CORE
+
+Created & Developed by:
+
+HIRALAL KUMAR
+
+Brand:
+
+CODEWITHHIRA
+
+Copyright:
+
+© 2026 CODEWITHHIRA. All Rights Reserved.
+
+The original project code, original branding and independently created assets belong to the project owner, subject to third-party licenses and applicable law.
+
+External AI models, APIs, trademarks, libraries and services remain the property of their respective owners.
+
+==================================================
+38. FINAL ACCEPTANCE CRITERIA
+
+The project is not complete until:
+
+- A new user can register.
+- A user can configure their own API.
+- API connection can be tested.
+- Supported models can be selected.
+- Real AI conversations work.
+- Streaming works.
+- Conversation history works.
+- Memory controls work.
+- User data remains isolated.
+- API credentials remain protected.
+- Supported file uploads work.
+- Compatible image and voice features work.
+- Configured web search works.
+- AI tools work.
+- AI agents work.
+- Project workspaces work.
+- Usage analytics work.
+- Admin controls work.
+- Security tests pass.
+- Mobile interface works.
+- Deployment documentation is complete.
+
+FINAL MISSION:
+
+Build CODEWITHHIRA AI CORE into a complete, professional, secure, scalable and independently managed personal API-powered AI ecosystem.
+
+Do not stop at a visual prototype.
+
+Develop the actual frontend, backend, database, AI integrations, memory, tools, security, testing and deployment.
+
+PROJECT OWNER: HIRALAL KUMAR.
+
+BRAND: CODEWITHHIRA.
+
+VERSION: 2.0 — ULTIMATE MASTER BLUEPRINT.
+---
+
+Final architecture: ek nazar mein
+
+System	Responsibility
+
+AI Engine	Models, providers, routing
+AI Workspace	Chat, projects, coding
+AI Memory	Personal memory, RAG
+AI Tools	Voice, image, search, files
+AI Agents	Custom assistants, workflows
+API Center	Personal API configuration
+Security Center	Privacy, encryption, access
+Analytics	Tokens, usage, cost
+User Center	Accounts, profile, settings
+Admin Center	Application management
+
+
+Development ke liye meri final advice
+
+Tere Android + Termux environment ko dhyan mein rakhte hue pehle Phase 01–07 complete karna practical rahega. Isse working API-powered AI platform ready hoga. Uske baad advanced features ek-ek karke integrate karenge.
+
+Ek zaroori baat: Ye complete target architecture hai, ek saath generate karne par bahut bada project banega. Isliye coding AI ko ek phase complete karne, test karne aur phir agle phase par jaane ka instruction dena.
+
+CODEWITHHIRA AI CORE — Built by Hiralal Kumar.
