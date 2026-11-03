@@ -7,6 +7,7 @@
  */
 
 import React, { useState, useEffect } from 'react';
+import { Analytics } from '@vercel/analytics/react';
 import { ThreeCoreUniverse } from './components/ThreeCoreUniverse';
 import { Navigation, ActiveTab } from './components/Navigation';
 import { UniverseHero } from './components/UniverseHero';
@@ -174,6 +175,9 @@ export default function App() {
         onClose={() => setIsTutorialOpen(false)}
         onNavigateToTab={handleTabChange}
       />
+
+      {/* Vercel Web Analytics */}
+      <Analytics />
     </div>
   );
 }
